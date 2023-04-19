@@ -8,7 +8,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 // 注册中心
-public class RegistryCenter {
+public class MainClass {
     // 服务列表
     private static Map<String, String> serviceMap = new HashMap<>();
 

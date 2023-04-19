@@ -10,11 +10,11 @@ public class RegistryCenterImpl extends UnicastRemoteObject implements IRegistry
 
     @Override
     public void register(String serviceName, String serviceUrl) throws RemoteException {
-        RegistryCenter.register(serviceName, serviceUrl);
+        MainClass.register(serviceName, serviceUrl);
     }
 
     @Override
     public String getServiceUrl(String serviceName) throws RemoteException {
-        return RegistryCenter.getServiceUrl(serviceName);
+        return MainClass.getServiceUrl(serviceName);
     }
 }
